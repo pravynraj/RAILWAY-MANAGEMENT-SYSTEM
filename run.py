@@ -11,7 +11,7 @@ from app.models.route import Route
 from app.models.booking import Booking
 from app.models.passenger import Passenger
 from app.models.payment import Payment
-
+from app import app
 app = create_app(os.environ.get('FLASK_ENV', 'development'))
 
 @app.shell_context_processor
