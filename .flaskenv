@@ -12,3 +12,5 @@ def create_app():
 @app.route("/")
 def home():
     return "Hello World"
+from flask import Flask
+app = Flask(_RAILWAY-MANAGEMENT-SYSTEM_)
